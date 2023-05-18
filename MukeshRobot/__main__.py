@@ -469,10 +469,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     text="sᴛᴀʀᴛ",
                     callback_data="Music_11",
                 ),
-                InlineKeyboardButton(
-                    text="ᴩɪɴɢ",
-                    callback_data="Music_12",
-                ),
+
             ],
                     [
                         InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="mukesh_back"),
@@ -748,7 +745,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 /logs [ɴᴜᴍʙᴇʀ ᴏғ ʟɪɴᴇs] : ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʙᴏᴛ [ᴅᴇғᴀᴜʟᴛ ᴠᴀʟᴜᴇ ɪs 100 ʟɪɴᴇs]
 
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -775,24 +772,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /sudolist : sʜᴏᴡs ᴛʜᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏғ ᴍᴜsɪᴄ ʙᴏᴛ.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆""",
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text="✯ вαϲк ✯", callback_data="Music_"),
-                    ]
-                ]
-            ),
-        )
-    elif query.data == "Music_12":
-        query.message.edit_text(
-            text=f"ᴩɪɴɢ ᴄᴏᴍᴍᴀɴᴅ"
-            f"""
-/ping : sʜᴏᴡ ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
-
-/stats : ɢᴇᴛ ᴛᴏᴩ 10 ᴛʀᴀᴄᴋ ɢʟᴏʙᴀʟ sᴛᴀᴛs, ᴛᴏᴩ 10 ᴜsᴇʀs ᴏғ ᴛʜᴇ ʙᴏᴛ, ᴛᴏᴩ 10 ᴄʜᴀᴛs ᴏɴ ᴛʜᴇ ʙᴏᴛ, ᴛᴏᴩ 10 ᴩʟᴀʏᴇᴅ ɪɴ ᴛʜᴇ ᴄʜᴀᴛ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ...
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -804,6 +783,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
+
     elif query.data == "Music_back":
         first_name = update.effective_user.first_name
         query.message.edit_text(
