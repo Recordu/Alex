@@ -89,7 +89,7 @@ buttons = [
         InlinekeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_"),
     ],
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ" url=f"https://t.me/{dispatcher.bot.username}?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{dispatcher.bot.username}?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ" url=f"https://t.me/Red_Wine_Op"),
