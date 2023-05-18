@@ -92,8 +92,8 @@ buttons = [
         InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{dispatcher.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ" url=f"https://t.me/Red_Wine_Op"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs" url=f"https://t.me/Kalakar_Sangram"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Red_Wine_Op"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Kalakar_Sangram"),
     ],
 ]
 
