@@ -1109,13 +1109,13 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://te.legra.ph/file/731f6b26b2ef1501e35c7.mp4",
+                animation="https://te.legra.ph/file/e7f775c149fb4df301649.jpg",
                 caption=f"""
 {dispatcher.bot.first_name}
 
 ╔═════ஜ۩۞۩ஜ═════╗
 
-  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗩𝗜𝗣 𝗕𝗢𝗬](https://t.me/the_vip_boy)♨️
+  ♨️Made by [Sangram](https://t.me/Kalakar_Sangram)♨️
   
 ╚═════ஜ۩۞۩ஜ═════╝
 """,
