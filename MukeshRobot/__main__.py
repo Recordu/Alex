@@ -469,6 +469,10 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     text="sᴛᴀʀᴛ",
                     callback_data="Music_11",
                 ),
+                InlineKeyboardButton(
+                    text="ᴩɪɴɢ",
+                    callback_data="Music_12",
+                ),
             ],
                     [
                         InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="mukesh_back"),
@@ -782,6 +786,14 @@ def Music_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
+    elif query.data == "Music_12":
+        query.message.edit_text(
+            text=f"ᴩɪɴɢ ᴄᴏᴍᴍᴀɴᴅ"
+            f"""
+/ping : sʜᴏᴡ ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+
+/stats : ɢᴇᴛ ᴛᴏᴩ 10 ᴛʀᴀᴄᴋ ɢʟᴏʙᴀʟ sᴛᴀᴛs, ᴛᴏᴩ 10 ᴜsᴇʀs ᴏғ ᴛʜᴇ ʙᴏᴛ, ᴛᴏᴩ 10 ᴄʜᴀᴛs ᴏɴ ᴛʜᴇ ʙᴏᴛ, ᴛᴏᴩ 10 ᴩʟᴀʏᴇᴅ ɪɴ ᴛʜᴇ ᴄʜᴀᴛ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ...
+"""
     elif query.data == "Music_back":
         first_name = update.effective_user.first_name
         query.message.edit_text(
@@ -808,7 +820,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🍷𝐇𝐄𝐋𝐏🍷 ",
+                                text="ʜᴇʟᴘ",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -819,12 +831,12 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "» 𝐂𝐡𝐨𝐨𝐬𝐞 𝐀𝐧 𝐎𝐩𝐭𝐢𝐨𝐧 𝐅𝐨𝐫 𝐆𝐞𝐭𝐭𝐢𝐧𝐠 𝐇𝐞𝐥𝐩🏘",
+            "ᴄʜᴏsᴇ ᴛʜᴇ ᴏᴘᴛɪᴏɴ ғᴏʀ ʜᴇʟᴘ",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🍷𝐒𝐭𝐚𝐫𝐭 𝐈𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞🍷",
+                            text="ᴏᴘᴇɴ ɪɴ ᴘʀɪᴠᴀᴛᴇ",
                             url="https://t.me/{}?start=help".format(
                                 context.bot.username
                             ),
@@ -832,7 +844,7 @@ def get_help(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="♨️𝐎𝐩𝐞𝐧 𝐇𝐞𝐫𝐞♨️",
+                            text="ᴏᴘᴇɴ ʜᴇʀᴇ",
                             callback_data="help_back",
                         )
                     ],
@@ -1079,15 +1091,10 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://te.legra.ph/file/731f6b26b2ef1501e35c7.mp4",
+
                 caption=f"""
-{dispatcher.bot.first_name}
+━━━━━━━━━━━━━━━━━━━━━━━\n✅ [𝗔𝗹𝗲𝘅𝗥𝗼𝗯𝗼𝘁](t.me/The_AlexRobot) 𝗦𝘁𝗮𝗿𝘁𝗲𝗱\n━━━━━━━━━━━━━━━━━━━━━━━
 
-╔═════ஜ۩۞۩ஜ═════╗
-
-  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗩𝗜𝗣 𝗕𝗢𝗬](https://t.me/the_vip_boy)♨️
-  
-╚═════ஜ۩۞۩ஜ═════╝
 """,
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -1130,7 +1137,7 @@ def main():
 
     dispatcher.add_error_handler(error_callback)
 
-    LOGGER.info("🌱𝐁𝐎𝐓🌷𝐒𝐓𝐀𝐑𝐓𝐄𝐃🌺𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐔🌱\n\n╔═════ஜ۩۞۩ஜ════╗\n\n♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗩𝗜𝗣 𝗕𝗢𝗬♨️\n\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER.info("Alex Robot Started")
     updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
