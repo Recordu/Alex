@@ -84,17 +84,21 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
-
-        InlinekeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_",
+        InlineKeyboardButton(
+            text="☆ 𝐀𝐝𝐝 𝐌𝐞 𝐌𝐨𝐢 𝐋𝐮𝐯 ☆",
+            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{dispatcher.bot.username}?startgroup=true"),
+        InlineKeyboardButton(text="🌼𝐇𝐄𝐋𝐏🌼", callback_data="help_back"),
+        InlineKeyboardButton(text="🍷𝐌𝐔𝐒𝐈𝐂🍷", callback_data="Music_"),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Red_Wine_Op"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Kalakar_Sangram"),
+        InlineKeyboardButton(text="🌷𝐆𝐑𝐎𝐔𝐏🌷", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🏡𝐎𝐅𝐅𝐈𝐂𝐄🏡", url=f"https://t.me/VIP_CREATORS"),
+    ],
+    [
+        InlineKeyboardButton(text="🌱𝐒𝐎𝐔𝐑𝐂𝐄🌱", callback_data="mukesh_"),
     ],
 ]
 
