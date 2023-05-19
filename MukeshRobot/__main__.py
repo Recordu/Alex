@@ -797,7 +797,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup
+            reply_markup=InlineKeyboardMarkup(
                 [
                     [
                       InlineKeyboardButton(text="✯ вαϲк ✯", callback_data="Music_"),
