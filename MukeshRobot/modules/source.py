@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from MukeshRobot import OWNER_ID, dispatcher
 from MukeshRobot import pbot as client
 
-Mukesh = "https://graph.org/file/d874fc40ddf9ead0cad6b.jpg"
+Mukesh = "https://te.legra.ph/file/55ab5863081f0b81a6d5a.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -18,11 +18,7 @@ async def repo(client, message):
         photo=Mukesh,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
-╔═════ஜ۩۞۩ஜ════╗
 
- ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗩𝗜𝗣 𝗕𝗢𝗬](https://t.me/the_vip_boy)♨️
-  
-╚═════ஜ۩۞۩ஜ════╝
 
 **[𝗩𝗜𝗣 𝗥𝗢𝗕𝗢𝗧](t.me/{dispatcher.bot.username}) sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
 """,
@@ -30,11 +26,11 @@ async def repo(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "📍ᴏᴡɴᴇʀ📍",f"tg://user?id={OWNER_ID}"
+                        "ᴏᴡɴᴇʀ",f"tg://user?id={OWNER_ID}"
                     ),
                     InlineKeyboardButton(
-                        "📍ʀᴇᴘᴏ📍",
-                        url="https://github.com/THE-VIP-BOY-OP/VIP-ROBOT",
+                        "ʀᴇᴘᴏ",
+                        url="https://t.me/RedWine_MusicWorld",
                     ),
                 ]
             ]
@@ -42,7 +38,7 @@ async def repo(client, message):
     )
 
 
-__mod_name__ = "⚡Rᴇᴩᴏ⚡"
+__mod_name__ = "𝐑ᴇᴩᴏ"
 _help__ = """
  /repo  ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 
  /source ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ
