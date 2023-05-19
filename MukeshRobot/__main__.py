@@ -71,49 +71,30 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 PM_START_TEX = """
-🍷𝐖𝐞𝐥𝐜𝐨𝐦𝐞 `{}`, 🍷 
+
 """
 
 
 PM_START_TEXT = """ 
+𝗛ᴇʟʟᴏ
+*ɪ ᴀᴍ ᴀʟᴇx, ᴀ sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
 
-👀𝐇𝐞𝐲 {} , [🖤]({})
-
-╔══❰🌺𝐖𝐄𝐋𝐂𝐎𝐌𝐄🌺❱═══❍⊱❁۪۪
-║
-║┣⪼ {} 
-║
-╚═════════════════❍⊱❁۪۪
-      ╔═════ஜ۩۞۩ஜ════╗
-
-       ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗩𝗜𝗣 𝗕𝗢𝗬♨️
-    
-      ╚═════ஜ۩۞۩ஜ════╝
-
-🌹𝐈 𝐀𝐦 𝐀𝐧 📀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 🎭 𝐀𝐧𝐝 🌱 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 🌼 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 ♨️ 𝐀𝐧𝐝 🍒 𝐕𝐂 🍄 𝐏𝐥𝐚𝐲𝐞𝐫 📣 𝐖𝐢𝐭𝐡 🕙 24𝐱7 🌀 𝐀𝐜𝐭𝐢𝐯𝐞 » 𝐅𝐨𝐫 🗨️ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 ♨️ 𝐆𝐫𝐨𝐮𝐩𝐬  🎸 𝐀𝐧𝐝 🏓  𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎻
-
-💐𝐅𝐞𝐞𝐥 😍 𝐋𝐚𝐠 📍 𝐅𝐫𝐞𝐞 😇 𝐓𝐨 🕊️ 𝐀𝐝𝐝 𝐌𝐞 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 🤖 𝐀𝐧𝐝 🩸 𝐄𝐧𝐣𝐨𝐲 ❥︎ 𝐒𝐮𝐩𝐞𝐫 💥 𝐇𝐢𝐠𝐡 💫 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 ⚡ 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠-𝐆𝐫𝐨𝐮𝐩 &   𝐏𝐥𝐚𝐲 🦞 𝐀𝐮𝐝𝐢𝐨 🎧 𝐀𝐧𝐝 🔊 𝐕𝐢𝐝𝐞𝐨 🌷
-
-☆...................τɦє νเρ Βσყ..................☆ 
+*I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="☆ 𝐀𝐝𝐝 𝐌𝐞 𝐌𝐨𝐢 𝐋𝐮𝐯 ☆",
-            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
+        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
+
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_"),
+    ],
+    [
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🌼𝐇𝐄𝐋𝐏🌼", callback_data="help_back"),
-        InlineKeyboardButton(text="🍷𝐌𝐔𝐒𝐈𝐂🍷", callback_data="Music_"),
-    ],
-    [
-        InlineKeyboardButton(text="🌷𝐆𝐑𝐎𝐔𝐏🌷", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="🏡𝐎𝐅𝐅𝐈𝐂𝐄🏡", url=f"https://t.me/VIP_CREATORS"),
-    ],
-    [
-        InlineKeyboardButton(text="🌱𝐒𝐎𝐔𝐑𝐂𝐄🌱", callback_data="mukesh_"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Red_Wine_Op"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Kalakar_Sangram"),
     ],
 ]
 
