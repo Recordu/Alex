@@ -1082,7 +1082,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                photo="https://te.legra.ph/file/ab3e9ac4dff7adbe6f57f.jpg",
+                animation="https://te.legra.ph/file/8f2e2fe205c5b8983ca14.mp4",
                 caption=f"""
 ━━━━━━━━━━━━━━━━━━━━━\n         [✅ 𝗔𝗹𝗲𝘅𝗥𝗼𝗯𝗼𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 ✅](http://t.me/The_AlexRobot)         \n━━━━━━━━━━━━━━━━━━━━━
 """,
