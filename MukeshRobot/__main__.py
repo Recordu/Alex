@@ -99,7 +99,7 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ᴄʜᴇᴄᴋ ᴅᴀᴛᴀɪʟꜱ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ᴏꜰ ᴛʜᴇ ᴍᴏᴅᴜʟᴇꜱ."""
+*ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ᴄʜᴇᴄᴋ ᴅᴀᴛᴀɪʟꜱ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ᴏꜰ ᴛʜᴇ ᴍᴏᴅᴜʟᴇꜱ.*"""
 
 
 DONATE_STRING = """
@@ -1082,15 +1082,9 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://te.legra.ph/file/731f6b26b2ef1501e35c7.mp4",
+                photo="https://te.legra.ph/file/ab3e9ac4dff7adbe6f57f.jpg",
                 caption=f"""
-{dispatcher.bot.first_name}
-
-╔═════ஜ۩۞۩ஜ═════╗
-
-  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗩𝗜𝗣 𝗕𝗢𝗬](https://t.me/the_vip_boy)♨️
-  
-╚═════ஜ۩۞۩ஜ═════╝
+━━━━━━━━━━━━━━━━━━━━━\n         [✅ 𝗔𝗹𝗲𝘅𝗥𝗼𝗯𝗼𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 ✅](http://t.me/The_AlexRobot)         \n━━━━━━━━━━━━━━━━━━━━━
 """,
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -1133,7 +1127,7 @@ def main():
 
     dispatcher.add_error_handler(error_callback)
 
-    LOGGER.info("🌱𝐁𝐎𝐓🌷𝐒𝐓𝐀𝐑𝐓𝐄𝐃🌺𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐔🌱\n\n╔═════ஜ۩۞۩ஜ════╗\n\n♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗩𝗜𝗣 𝗕𝗢𝗬♨️\n\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER.info("Alex Robot Started")
     updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
