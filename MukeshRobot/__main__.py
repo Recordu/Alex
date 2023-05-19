@@ -469,7 +469,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     callback_data="Music_11",
                 ),
                 InlineKeyboardButton(
-                    text="𝗣ɪɴɢ",
+                    text="𝗘xᴛʀᴀ",
                     callback_data="Music_12",
                 ),
             ],
@@ -498,7 +498,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/queue : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -522,7 +522,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/authusers : sʜᴏᴡs ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -554,7 +554,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/blockedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 
 """,
             parse_mode=ParseMode.MARKDOWN,
@@ -582,7 +582,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **ᴇxᴀᴍᴩʟᴇ**: `/broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ`
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 
 """,
             parse_mode=ParseMode.MARKDOWN,
@@ -605,7 +605,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/gbannedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇʀ ᴜsᴇʀs.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 
 """,
             parse_mode=ParseMode.MARKDOWN,
@@ -626,7 +626,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/shayri : ᴛᴏ ɢᴇᴛ ᴀ sʜᴀʏʀɪ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -649,7 +649,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/play : sᴛᴀʀᴛs ᴩʟᴀʏɪɴɢ ғʀᴏᴍ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -670,7 +670,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 **/activevideo : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.**
 **/autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ sᴛʀᴇᴀᴍ ᴀᴜᴛᴏ ᴇɴᴅ ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -697,7 +697,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -714,11 +714,11 @@ def Music_about_callback(update: Update, context: CallbackContext):
             text=f"*❰ 𝙎𝙐𝘿𝙊 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 ❱*"
             f"""
 
-**🥶 ʜᴇʀᴏᴋᴜ :**
+**ʜᴇʀᴏᴋᴜ :**
 
 **/usage : sʜᴏᴡs ᴛʜᴇ ᴅʏɴᴏ ᴜsᴀɢᴇ ᴏғ ᴛʜᴇ ᴍᴏɴᴛʜ.**
 
-**🤓 ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs:**
+**ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs:**
 
 **/restart : ʀᴇsᴛᴀʀᴛs ʏᴏᴜʀ ʙᴏᴛ.**
 
@@ -732,7 +732,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/logs [ɴᴜᴍʙᴇʀ ᴏғ ʟɪɴᴇs] : ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʙᴏᴛ [ᴅᴇғᴀᴜʟᴛ ᴠᴀʟᴜᴇ ɪs 100 ʟɪɴᴇs]**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 
 """,
             parse_mode=ParseMode.MARKDOWN,
@@ -762,7 +762,32 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/ping : sʜᴏᴡ ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏]() ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎]() ❱
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
+""",
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="Music_"),
+                    ]
+                ]
+            ),
+        )
+    elif query.data == "Music_12":
+        query.message.edit_text(
+            text=f"*❰ 𝙀𝙓𝙏𝙍𝘼𝙎 ❱*"
+            f"""
+**/loop [ᴅɪsᴀʙʟᴇ/ᴇɴᴀʙʟᴇ] ᴏʀ [ʙᴇᴛᴡᴇᴇɴ 1:10] **
+**: ᴡʜᴇɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʙᴏᴛ ᴡɪʟʟ ᴩʟᴀʏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ɪɴ ʟᴏᴏᴩ ғᴏʀ 10 ᴛɪᴍᴇs ᴏʀ ᴛʜᴇ ɴᴜᴍʙᴇʀ ᴏғ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏᴏᴩs.**
+
+**/shuffle : sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs.**
+
+**/seek : sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.**
+
+**/seekback : ʙᴀᴄᴋᴡᴀʀᴅ sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.**
+
+❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
