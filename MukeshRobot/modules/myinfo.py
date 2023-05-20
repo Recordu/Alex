@@ -10,13 +10,13 @@ from MukeshRobot import telethn as tgbot
 from MukeshRobot.events import register
 
 edit_time = 5
-""" =======================𝗩𝗜𝗣 𝗥𝗢𝗕𝗢𝗧====================== """
-file1 = "https://telegra.ph/file/9a85d0a873e2dd80d278d.jpg"
-file2 = "https://telegra.ph/file/9e7815284031452afa9e5.jpg"
-file3 = "https://telegra.ph/file/dcc5e003287f69acea368.jpg"
-file4 = "https://telegra.ph/file/ed1ce7fee94f46b0f671e.jpg"
-file5 = "https://telegra.ph/file/701028ce085ecfa961a36.jpg"
-""" =======================𝗩𝗜𝗣 𝗥𝗢𝗕𝗢𝗧====================== """
+""" =======================𝗔𝗟𝗘𝗫 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧====================== """
+file1 = "https://te.legra.ph/file/8dc88367baa468b07b6fd.jpg"
+file2 = "https://te.legra.ph/file/8dc88367baa468b07b6fd.jpg"
+file3 = "https://te.legra.ph/file/8dc88367baa468b07b6fd.jpg"
+file4 = "https://te.legra.ph/file/8dc88367baa468b07b6fd.jpg"
+file5 = "https://te.legra.ph/file/8dc88367baa468b07b6fd.jpg"
+""" =======================𝗔𝗟𝗘𝗫 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧====================== """
 
 
 @register(pattern="/myinfo")
@@ -78,8 +78,8 @@ async def callback_query_handler(event):
 
 
 __command_list__ = ["myinfo"]
-__mod_name__ = "📍ɪɴғᴏ📍"
+__mod_name__ = "𝐈ɴғᴏ"
 __help__ = """
  /myinfo  ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ɪɴғᴏ 
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆"""
+"""
