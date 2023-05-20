@@ -197,8 +197,8 @@ async def drawText(image_path, text):
     return webp_file
 
 
-__mod_name__ = "📍ᴍᴍғ📍"
+__mod_name__ = "𝐌ᴍғ"
 __help__ = """ 
 ⫸ /mmf <ᴛᴇxᴛ> ◉ ᴛᴏ ᴍᴇᴍɪғʏ
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆ """
+ """
