@@ -77,7 +77,7 @@ PM_START_TEX = """
 
 PM_START_TEXT = """ 
 𝗛ᴇʟʟᴏ
-*ɪ ᴀᴍ ᴀʟᴇx, ᴀ sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
+*ɪ ᴀᴍ ʟᴏᴠᴇʟʏ ǫᴜᴇᴇɴ, ᴀ sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
 
 *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!*
 """
@@ -89,12 +89,12 @@ buttons = [
         InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_"),
     ],
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
+        InlineKeyboardButton(text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Red_Wine_Op"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Kalakar_Sangram"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/SUKUN_XONE"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Its_aubot"),
     ],
 ]
 
@@ -498,7 +498,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/queue : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -522,7 +521,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/authusers : sʜᴏᴡs ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -554,8 +552,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/blockedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
-
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -582,8 +578,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **ᴇxᴀᴍᴩʟᴇ**: `/broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ`
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
-
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -605,8 +599,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/gbannedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇʀ ᴜsᴇʀs.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
-
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -626,7 +618,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/shayri : ᴛᴏ ɢᴇᴛ ᴀ sʜᴀʏʀɪ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -649,7 +640,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/play : sᴛᴀʀᴛs ᴩʟᴀʏɪɴɢ ғʀᴏᴍ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -669,8 +659,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 **/activevoice : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛs ᴏɴ ᴛʜᴇ ʙᴏᴛ.**
 **/activevideo : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.**
 **/autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ sᴛʀᴇᴀᴍ ᴀᴜᴛᴏ ᴇɴᴅ ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ.**
-
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -697,7 +685,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -732,8 +719,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/logs [ɴᴜᴍʙᴇʀ ᴏғ ʟɪɴᴇs] : ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʙᴏᴛ [ᴅᴇғᴀᴜʟᴛ ᴠᴀʟᴜᴇ ɪs 100 ʟɪɴᴇs]**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
-
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -761,8 +746,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 **/sudolist : sʜᴏᴡs ᴛʜᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏғ ᴍᴜsɪᴄ ʙᴏᴛ.**
 
 **/ping : sʜᴏᴡ ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.**
-
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -787,7 +770,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **/seekback : ʙᴀᴄᴋᴡᴀʀᴅ sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.**
 
-❰ [𝙎𝙐𝙋𝙋𝙊𝙍𝙏](https://t.me/RedWine_MusicWorld) ❤️ [𝙐𝙋𝘿𝘼𝙏𝙀𝙎](https://t.me/Kalakar_Sangram) ❱
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -1047,7 +1029,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != {OWNER_ID} and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [VIP BOY](https://t.me/THE_VIP_BOY)"
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [Sangram](https://t.me/Sangram_Piro)"
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
@@ -1096,9 +1078,9 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://te.legra.ph/file/8f2e2fe205c5b8983ca14.mp4",
+                animation="https://telegra.ph/file/513bcf9541be2d76786f0.mp4",
                 caption=f"""
-━━━━━━━━━━━━━━━━━\n  [✅ 𝗔𝗹𝗲𝘅𝗥𝗼𝗯𝗼𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 ✅](http://t.me/The_AlexRobot)  \n━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━\n  [✅ 𝗤𝘂𝗲𝗲𝗻 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 ✅](http://t.me/QueenOp_Probot)  \n━━━━━━━━━━━━━━━━━
 """,
                 parse_mode=ParseMode.MARKDOWN,
             )
