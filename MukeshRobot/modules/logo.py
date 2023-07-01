@@ -279,7 +279,7 @@ async def lego(event):
         await telethn.send_file(
             event.chat_id,
             file=fname,
-            caption=f"𝗟𝗼𝗴𝗼 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 [𝗔𝗹𝗲𝘅](https://t.me/RedWine_MusicWorld)",
+            caption=f"𝗟𝗼𝗴𝗼 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 [𝗟𝗼𝘃𝗲𝗹𝘆 𝗤𝘂𝗲𝗲𝗻](https://t.me/QueenOp_Probot)",
         )
         await pesan.delete()
         if os.path.exists(fname):
@@ -312,7 +312,7 @@ async def lego(event):
         await telethn.send_file(
             event.chat_id,
             file=fname,
-            caption=f"𝗟𝗼𝗴𝗼 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 [𝗔𝗹𝗲𝘅](https://t.me/RedWine_MusicWorld)",
+            caption=f"𝗟𝗼𝗴𝗼 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 [𝗟𝗼𝘃𝗲𝗹𝘆 𝗤𝘂𝗲𝗲𝗻](https://t.me/QueenOp_Probot)",
         )
         await pesan.delete()
         if os.path.exists(fname):
